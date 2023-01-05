@@ -159,12 +159,14 @@ main {
 
 .resume-content {
     display: flex;
-    gap:24px;
+    gap: 24px;
 }
-.resume-item{
-    margin-top:30px;
+
+.resume-item {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .section-title {
     margin-top: 130px;
     font-weight: 700;
@@ -184,13 +186,54 @@ main {
     color: #757575;
     font-weight: 600;
     font-size: 20px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-.resume-battom{
-    margin-top:50px;
+
+.resume-battom {
+    margin-top: 50px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .resume .discreption {
     color: #757575;
+}
+
+/* contact style */
+.contect {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    gap: 117px;
+}
+
+.contect .secle-title {
+    text-align: left;
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+
+.contect input[type="text"],
+input[type="email"],
+.text-area {
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 60px;
+}
+
+.section-dis {
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom:30px;
+}
+.contect a{
+    text-decoration: none;
+    padding:0 10px;
 }
