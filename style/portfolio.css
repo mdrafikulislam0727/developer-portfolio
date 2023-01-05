@@ -8,7 +8,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding:50px 200px;
+    padding: 50px 200px;
 }
 
 nav li {
@@ -39,6 +39,16 @@ nav ul {
     height: 64px;
     background: #FD6E0A;
     border-radius: 5px;
+}
+
+.phone-icon {
+    border: 1px solid orange;
+    padding: 19px 24px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 50px;
 }
 
 .header {
@@ -231,9 +241,10 @@ input {
     color: #474747;
     font-weight: 400;
     font-size: 16px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
-.contect a{
+
+.contect a {
     text-decoration: none;
-    padding:0 10px;
+    padding: 0 10px;
 }
